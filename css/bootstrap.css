@@ -9780,15 +9780,20 @@ th {
     p3{
       font-family: inherit;
       color: white;
-      font-size: 20px;
+      font-size: inherit;
       text-align: center;
     }
 
     #Nutrition {
       background-color: #A2D853;
       padding-left: 80px;
+      padding-bottom: 60px;
     }
 
-    div {
-        -webkit-column-gap: 40px;
-      }
+    .row1 {
+      display: flex;
+  }
+
+  .column1 {
+      flex: 50%;
+  }
