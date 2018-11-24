@@ -83,7 +83,7 @@
    }
 
    #explanation {background-image: url('https://chopra.com/sites/default/files/field/image/smilingispowerful.jpg');
-       height:1500px;
+
        width: 100%;
        margin:0;
        background-size: 100%;
@@ -9698,6 +9698,7 @@ th {
 
     h1 {
       padding-top: 350px;
+      padding-bottom: 100px;
       padding-left: 80px;
       padding-right: 80px;
       color: white;
