@@ -9797,3 +9797,11 @@ th {
   .column1 {
       flex: 50%;
   }
+
+  .row3 {
+    display: flex;
+}
+
+.column3 {
+    flex: 33.3%;
+}
