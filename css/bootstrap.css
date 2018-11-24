@@ -19,9 +19,10 @@
 
  }
 
- <link rel="stylesheet" type="text/css" href="indexcss.css"></link>
+
 
  .container {
+   position: fixed;
    width: 80%;
    margin:0 auto;
 
@@ -78,7 +79,7 @@
    }
 
    nav a:hover {
-     color: white;
+     color: #A2D853;
    }
 
    #explanation {background-image: url('https://chopra.com/sites/default/files/field/image/smilingispowerful.jpg');
@@ -647,6 +648,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  position: fixed;
 }
 
 @media (min-width: 576px) {
@@ -9696,9 +9698,13 @@ th {
 
     h1 {
       padding-top: 350px;
-      font-family: 'Palladio', serif;
-      font-size: 50px;
+      padding-left: 80px;
+      padding-right: 80px;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      text-transform: uppercase;
+      font-size: 45px;
+      font-weight:bold;
       text-align: center;
-
 
     }
