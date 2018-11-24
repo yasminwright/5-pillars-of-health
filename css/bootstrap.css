@@ -12,12 +12,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
- body{
-   margin: 0px;
-   font-family: 'work sans', sans-serif;
-   font-weight: 300;
 
- }
 
 
 
@@ -30,9 +25,8 @@
 
  .container2 {
 
-   margin:0 auto;
-   padding-top: 0px;
-   padding-left: 0px;
+   margin:80px;
+
 
  }
 
@@ -9701,11 +9695,100 @@ th {
       padding-bottom: 100px;
       padding-left: 80px;
       padding-right: 80px;
-      color: white;
-      font-family: 'Poppins', sans-serif;
+      color: #181818;
+      font-family: inherit;
       text-transform: uppercase;
       font-size: 45px;
-      font-weight:bold;
+      font-weight:light;
       text-align: center;
+      spacing:
 
     }
+
+    h2 {
+      padding-top: 40px;
+      text-align: center;
+    }
+
+    h5 {
+      font-family: inherit;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 45px;
+      padding: 30px;
+    }
+
+    p1{
+      text-align: center;
+
+
+    }
+
+    #water{
+      padding-top: 100px;
+      padding-left: 4000px;
+    }
+
+    .card {
+      padding: 50px;
+
+      width: 400px;
+      background-color: #A2D853
+
+
+    }
+
+    .card-title {
+      color: white;
+      text-transform: uppercase;
+      text-align: center;}
+
+     .card-title2{
+
+        color: inherit;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .box{
+      width: 700px;
+      padding-top: :70px;
+      padding-left: 100px;
+      background-color: white;
+    }
+
+    p1{
+      color: white;
+    }
+
+    div{
+      column-gap: 100px;
+    }
+
+    h6{
+      color: white;
+      font-family: inherit;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 45px;
+      padding-right:30px;
+      padding-top:30px;
+      padding-bottom:30px;
+    }
+
+    p3{
+      font-family: inherit;
+      color: white;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    #Nutrition {
+      background-color: #A2D853;
+      padding-left: 80px;
+    }
+
+    div {
+        -webkit-column-gap: 40px;
+      }
