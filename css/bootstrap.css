@@ -9803,5 +9803,6 @@ th {
 }
 
 .column3 {
+  padding-top: 40px;
     flex: 33.3%;
 }
