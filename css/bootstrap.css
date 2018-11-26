@@ -19,7 +19,9 @@
  .container {
    position: fixed;
    width: 100%;
-   margin:0 auto;
+   background-color: white;
+   z-index: 100
+
 
 
  }
@@ -27,6 +29,7 @@
  .container2 {
 
    margin:80px;
+   margin-top: 20px;
 
 
  }
@@ -77,15 +80,6 @@
      color: #A2D853;
    }
 
-   #explanation {background-image: url('https://chopra.com/sites/default/files/field/image/smilingispowerful.jpg');
-
-       width: 100%;
-       margin:0;
-       background-size: 100%;
-       background-repeat: no-repeat;
-       padding-left: 0px;
-
-     }
 
 
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,600");
@@ -648,25 +642,25 @@ pre code {
 
 @media (min-width: 576px) {
   .container {
-    max-width: 540px;
+
   }
 }
 
 @media (min-width: 768px) {
   .container {
-    max-width: 720px;
+
   }
 }
 
 @media (min-width: 992px) {
   .container {
-    max-width: 960px;
+
   }
 }
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+
   }
 }
 
@@ -9542,8 +9536,7 @@ a.text-dark:hover, a.text-dark:focus {
   body {
     min-width: 992px !important;
   }
-  .container {
-    min-width: 992px !important;
+
   }
   .navbar {
     display: none;
@@ -9690,19 +9683,39 @@ th {
   color: inherit;
 }
 
+#explanation {background-image: url('https://chopra.com/sites/default/files/field/image/smilingispowerful.jpg');
+
+
+    width: 100%;
+    min-height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+
+
 
     h1 {
-      padding-top: 350px;
-      padding-bottom: 100px;
-      padding-left: 80px;
-      padding-right: 80px;
+      position: absolute;
+      top: 70%; left: 100px; right: 100px;
       color: #181818;
-      font-family: 'Nunito', sans-serif;
+      font-family: inherit;
+
       text-transform: uppercase;
-      font-size: 45px;
-      font-weight:light;
+      font-size: 2rem;
+      font-weight:;
       text-align: center;
-      spacing:
+
+    }
+
+    button {
+      background-color: transparent;
+      font-family: inherit;
+      border: none;
+      position: absolute;
+      top: 85%; left: 40%;
+
 
     }
 
@@ -9717,6 +9730,16 @@ th {
       text-transform: uppercase;
       font-size: 45px;
       padding: 0px;
+    }
+
+
+  h6 {
+      font-family: inherit;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 45px;
+      padding: 50px;
+      color: #181818;
     }
 
     p1{
@@ -9768,7 +9791,7 @@ th {
     }
 
     h6{
-      color: white;
+      
       font-family: inherit;
       text-align: center;
       text-transform: uppercase;
@@ -9808,8 +9831,10 @@ th {
     flex: 20%;
 }
 
-button {
-  background-color: transparent;
-  font-family: inherit;
-  border: none;
+.center {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+
 }
