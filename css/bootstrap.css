@@ -20,7 +20,7 @@
    position: fixed;
    width: 100%;
    margin:0 auto;
-   
+
 
  }
 
@@ -9806,4 +9806,10 @@ th {
 .column3 {
   padding-top: 40px;
     flex: 20%;
+}
+
+button {
+  background-color: transparent;
+  font-family: inherit;
+  border: none;
 }
